@@ -1,4 +1,3 @@
-import os
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from pydantic import BaseModel
 from app.scraper import scrape_website
